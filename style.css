@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    background-image: url("images/gatewayofindia.jpg");
+    height: 900px;
+}
+.intro-bar{
+    flex-wrap: wrap;
+    height: 800px;  
+}
+.content{
+    flex-wrap: wrap;
+    padding: 50px;
+    text-align: center;
+}
+.title{
+    font-size: 85px;
+}
+.navigation-bar{
+    background-color: #84829428;
+    height: 100px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline;
+}
+nav li a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+nav li a:hover{
+    color: #7f5af0;
+}
+.box{
+    height: 900px;
+}
+.gateway-of-india{
+    background-image: url("images/gatewayofindia-2.jpg"); 
+}
+.marine-drive{
+    background-image: url("images/marinedrive.jpg"); 
+}
+.bandra-worli-sealink{
+    background-image: url("images/bandraworlisealink.jpg"); 
+}
+.mumbai-locals{
+    background-image: url("images/mumbailocals.jpg"); 
+}
+.scroll{
+    position: fixed;
+    display:none;
+    bottom:0;
+    right:0;
+}
+.scroll button{
+    padding: 15px;
+    border-radius: 100%;
+    border: none;
+    margin: 50px;
+    transition: background-color,color 0.1s;
+}
+.scroll button:hover{
+    background-color: #7f5af0;
+    color:#ffffff;
+}
